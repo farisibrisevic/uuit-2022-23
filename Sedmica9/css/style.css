@@ -1,0 +1,165 @@
+/* General Style*/
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+    color: darkgray;
+    
+}
+
+
+i{
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+button p h4 li {
+    font-family: CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif),sans-serif;
+}
+
+
+li:hover{
+    color: white;
+    transition: ease-in 0.2s;
+    cursor: pointer;
+}
+
+/* left Meni*/
+
+.leftMeni{
+    width: 15%;
+    background-color: black;
+    height: 100vh;
+}
+
+.mainPage{
+    height: 100vh;
+    width: 85%;
+    background-color: #242424;
+}
+
+.leftMeni{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.leftMeni ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
+.leftMeni ul li{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.leftMeni img{
+    width: 200px;
+    flex-basis: auto;
+    margin-left: 40px;
+}
+
+
+
+.leftMeni .textOptions{
+   margin-left:40px;
+   font-size: 14px;
+   margin-bottom: 20px;
+}
+
+
+/* Main Page*/
+.mainPage nav{
+    background-color: #141313;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.mainPage .navContents {
+    display: flex;
+    align-items: center;
+}
+.mainPage .navContents ul{
+    display: flex;
+    list-style: none;
+}
+
+.mainPage .navContents ul li{
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+#bar{
+    font-size: 24px;
+    margin-right: 30px;
+    font-weight: 700;
+}
+
+.mainPage .navContents button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    color: darkgray;
+}
+
+#main{
+    background-color: white;
+    color: black;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+section .text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#right{
+    color: darkgray;
+    font-size: 16px;
+}
+
+section .playlists{
+    display: flex;
+    padding: 0 40px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+section .playlists .album{
+    width: 150px;
+    background-color: #303030;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+
+section .playlists .album img{
+    width: 150px;
+}
+
+section .playlists .album p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+section .playlists .album h4{
+    color: white;
+    margin-bottom: 0;
+}
