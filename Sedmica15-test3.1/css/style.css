@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:  Sans,Arial,sans-serif
+}
+
+.showcase{
+    background-image: url("../images/slika1.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+}
+.showcase h1{
+    text-align: center;
+    margin-top: 15%;
+    font-size: 80px;
+    color: white;
+    text-transform: uppercase;
+}
+.showcase nav{
+    height: 100px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.6;
+    justify-content: space-between;
+    padding: 0  200px;
+}
+
+.showcase nav .logo img{
+    width: 80px;
+}
+.showcase nav .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showcase nav .menu ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.showcase nav .menu ul li{
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.odsjeci{
+    display: flex;
+    justify-content: center;
+}
+
+.odsjeci > div {
+    width: 34%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pb{
+    background-color: #994724;
+}
+.gr{
+    background-color: #e09900;
+}
+.size{
+    background-color: #3a84c1;
+}
+
+
+
+.main .container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.main .left{
+    display: flex;
+    flex-direction: column;
+}
+.main .left ul{
+    list-style-type: none;
+}
+
+.main .left ul li{
+    background-color: lightgray;
+    width: 200px;
+    margin: 10px;
+    padding:7.5px 15px;
+}
+
+.main .left img{
+    width: 250px;
+    padding-left: 40px;
+    margin-bottom: 10px;
+}
+
+
+.main .right{
+    margin: 10px;
+    width: 100%;
+}
+
+.main .right .title{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px;
+}
+
+
+.cards{
+    width: 80%;
+    margin: auto;
+}
+
+.card{
+    margin: 20px;
+}
+.dugme{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    background-color: lightgray;
+    padding: 10px 20px;
+    border: none;
+}
+
+.inner{
+    display: flex;
+}
+
+.inner .content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+.inner .content small{
+    color: red;
+}
+.inner img{
+    width: 300px;
+    height: 200px;
+}
+.inner hr{
+    margin-top: 150px;
+}
+
+.testimonials{
+    width: 90%;
+    margin: auto;
+}
+.list{
+    display: flex;
+    margin: 20px;
+}
+
+.carditem{
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.carditem .cardContent{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carditem .cardContent img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.carditem button{
+    background-color:#994724;
+    color: white;
+}
+
+footer{
+    height: 300px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

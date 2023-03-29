@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.showcase{
+    background-image: url("../images/showcase.svg");
+    background-position: center -100px;
+    height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+nav .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+nav .left img{
+    width: 150px;
+    height: 150px;
+}
+nav .left ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .left ul li{    
+
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+nav .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .right ul li{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 1rem;
+}
+
+nav .right button{
+    background-color: #a8da23;
+    color: black;
+    padding: 1rem 2rem;
+    border: none;
+    margin: 20px;
+    font-size: 20px;
+    margin-left: 1rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+}
+.text{
+   
+    text-align: left;
+    
+}
+
+.text h1{
+    font-size: 5.5rem;
+    text-align: left;
+    margin: 0;
+}
+
+
+.text button{
+    background-color: #a8da23;
+    color: black;
+    padding: 1.5rem 3rem;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text p{
+    text-align: left;
+    margin: 0;
+}
+.clients{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.clients p{
+    color:gray;
+    margin-top: 20px;
+}
+
+.clients h1{
+    font-size: 5.5rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.clients .clientsgallery img{
+    width: 200px;
+}
+.clients .clientsgallery{
+    display: grid;
+    grid-template-columns: repeat(6,200px);
+    grid-template-rows: 200px 200px;
+    gap: 40px;
+}
+
+.features{
+    background-image: url("../images/showcase.svg");
+    background-position: center -1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.features p{
+    color:gray;
+    margin-top: 20px;
+}
+
+.features h1{
+    font-size: 5.5rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.features .card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid #a8da23;
+    padding: 20px;
+
+}
+
+.features .card p{
+    text-align: left;
+}
+.features .cards{
+    display: grid;
+    grid-template-columns: repeat(3,500px);
+    grid-template-rows: 300px 300px;
+    gap: 40px;
+}
+
+.features button{
+    background-color: #a8da23;
+    color: black;
+    padding: 1.5rem 3rem;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+.contact{
+    background-color: #a8da23;
+}
+
+.contact h1{
+    font-size: 5.0rem;
+}
+
+.contact button{
+    background-color: black;
+    color: #a8da23;
+    padding: 1.5rem 3rem;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 2rem;
+}
+
+.contact .content{
+    width: 80%;
+    margin: auto;
+}
+footer{
+    margin: 0 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer .part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .part img{
+    width: 200px;
+    margin-right: 20px;
+}

@@ -1,0 +1,11 @@
+font-family:  Sans,Arial,sans-serif
+nijansa crvene: #994724
+nijansa plave: #3a84c1
+nijansa zute: #e09900
+
+visina glavne slike:800px;
+
+sirina slika 250px;
+sirina logo-a: 80px;
+
+sirina slika u horizontalnim cardovima: 200px;

@@ -1,0 +1,22 @@
+###TEST 3 - MJERE 
+
+##Font:
+font-family: montserrat,-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+bazna velicina: 20px;
+bazno podebljanje: 500
+visina linije: 1.5
+
+##BOJA:
+Nijansa Zelene: #a8da23
+
+##Showcase segment
+background-position: center -100px;
+NAPOMENA: KORISITI BACKGROUND IMAGE za pozadinske slike
+##Services Segment
+background-position: center -1000;
+NAPOMENA: KORISITI BACKGROUND IMAGE za pozadinske slike
+
+
+##Sirina slika: 200px, sem glavnog logo koji je 150pxx150px
+
+##velicina H1 : 5.5rem
