@@ -1,0 +1,32 @@
+Mjere Za Test 2 - 14.12.2022.
+
+##Ikone Za Font-Awesome:
+	- <i class="fa-solid fa-magnifying-glass"></i> (Navbar)
+	- <i class="fa-solid fa-graduation-cap"></i> 
+	- <i class="fa-solid fa-school"></i>
+	- <i class="fa-solid fa-industry"></i>
+	- <i class="fa-solid fa-people-group"></i>
+	- <i class="fa-solid fa-hotel"></i>
+
+##Font korišten u stranici
+	font-family: Roboto,Helvetica,Arial,sans-serif;
+
+##Nijanse Boja Upotrijebljenje
+	Nijansa Smedje - #896844
+	Nijansa Plave - rgb(239, 239, 255)
+	Nijansa Boje teksta: Darkgray
+
+Širina containera: 70%
+
+
+##Postavljanje showcase slike (visina 800px)
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+##Providnost panela (OPCIONO)
+	opacity:0.9
+
+
+##Import tag za Fontawesome (U slucaju prekida neta):
+	- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8				+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
