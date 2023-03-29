@@ -1,0 +1,8 @@
+Prijelazna boja (FADE) - background-image: linear-gradient(to right,#3498eb,lightblue);
+Nijansa plave - #3498eb
+Nijansa bijele - lightblue
+Nijansa sive - #e3e2de
+
+Visina Showcase slike - 400px
+
+Sirina slika u ( nizu slika) - 10%
